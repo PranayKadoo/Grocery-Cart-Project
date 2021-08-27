@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ </head>
+<body>
+       
+    <div class="wrap1">
+        <div class="child1">
+            <button id="cart" onclick="cart()">cart</button>
+            <div id="list">
+            </div>
+    <h1 id="head1">Order your groceries online</h1>
+   <a href=".shopping"><button id="btn1">Shope now</button></a>
+        </div>
+    </div>
+
+    <section class="shopping">
+    <div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class ="items">
+                <img src="pic1.jpg" style="width:250px; height: 300px;">
+                <button id="1" onclick="items(this.id)">Add to cart</button>
+                <h3 id="price1">Basmati Rice </br><i>5kg</i> <b>690Rs</b></h3>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <div class ="items">
+                <img src="pic2.jpg" style="width:250px; height: 300px;">
+                <button id="2" onclick="items(this.id)">Add to cart</button>
+                <h3 id="price2">Safola Oil </br><i>5Ltr</i> <b>730Rs</b></h3>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <div class ="items">
+                <img src="pic3.jpg" style="width:250px; height: 300px;">
+                <button id="3" onclick="items(this.id)">Add to cart</button>
+                <h3 id="price3">Ashirwad Aata </br><i>5kg</i> <b>225Rs</b></h3>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class ="items">
+                <img src="pic4.jpg" style="width:250px; height: 300px;">
+                <button id="4" onclick="items(this.id)">Add to cart</button>
+                <h3 id="price4">Tata Salt </br><i>1kg</i> <b>28Rs</b></h3>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <div class ="items">
+                <img src="pic5.jpg" style="width:250px; height: 300px;">
+                <button id="5" onclick="items(this.id)">Add to cart</button>
+                <h3 id="price5">Tikha Lal </br><i>2kg</i> <b>190Rs</b></h3>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <div class ="items">
+                <img src="pic6.jpg" style="width:250px; height: 300px;">
+                <button id="6" onclick="items(this.id)">Add to cart</button>
+                <h3 id="price6">Madhur Sugar </br><i>5kg</i> <b>250Rs</b></h3>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- <p>This is a paragraph.</p>
+<button>Toggle between hide() and show()</button> -->
+
+
+    <script src="logic.js"></script>
+</body>
+</html>
