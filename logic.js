@@ -24,10 +24,6 @@ function items(c){
 
     })
   
-    // sessionStorage.setItem(count,t);
-    // document.getElementById("list").innerHTML = sessionStorage.getItem(count);
-    // console.log(parseInt(count));
-  
 }
 
 function cart(){
@@ -41,13 +37,3 @@ function cart(){
   }
   x++;
 }
-// $(document).ready(function(){
-//     $("cart").click(function(){
-//       $("list").toggle();
-//     });
-//   });
-// $(document).ready(function(){
-//     $("button").click(function(){
-//       $("p").toggle();
-//     });
-//   });
